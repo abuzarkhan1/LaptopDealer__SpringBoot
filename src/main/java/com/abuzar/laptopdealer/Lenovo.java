@@ -9,6 +9,6 @@ public class Lenovo implements Brand{
 
     @Override
     public void showDetails() {
-        System.out.println("Lenovo" + processors.showProcessorDetails());
+        System.out.println("You Have Purchased Lenovo With " + processors.showProcessorDetails() + " " +  "Processor");
     }
 }

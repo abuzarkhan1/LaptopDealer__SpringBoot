@@ -10,6 +10,6 @@ public class MacBook implements Brand{
 
     @Override
     public void showDetails() {
-        System.out.println("macbook"+ processors.showProcessorDetails());
+        System.out.println("You have Purchased Macbook With "+ processors.showProcessorDetails()  + " "  + "Processor");
     }
 }

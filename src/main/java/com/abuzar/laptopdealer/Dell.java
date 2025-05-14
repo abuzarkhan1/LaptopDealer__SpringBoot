@@ -10,6 +10,6 @@ public class Dell implements Brand{
 
     @Override
     public void showDetails() {
-        System.out.println("dell" + processors.showProcessorDetails());
+        System.out.println("You have purchased Dell With " + processors.showProcessorDetails()  + " " + "Processor");
     }
 }
