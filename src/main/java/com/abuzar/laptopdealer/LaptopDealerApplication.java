@@ -1,0 +1,13 @@
+package com.abuzar.laptopdealer;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class LaptopDealerApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(LaptopDealerApplication.class, args);
+    }
+
+}
