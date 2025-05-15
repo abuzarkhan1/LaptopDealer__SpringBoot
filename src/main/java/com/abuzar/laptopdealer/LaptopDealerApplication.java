@@ -26,6 +26,7 @@ public class LaptopDealerApplication {
         String beanId = "";
 
         switch (userBrandSelect) {
+
             case 1:
                 switch (userProcessorSelect) {
                     case 1:
@@ -39,6 +40,7 @@ public class LaptopDealerApplication {
                         break;
                 }
                 break;
+
             case 2:
                 switch (userProcessorSelect) {
                     case 1:
@@ -52,8 +54,10 @@ public class LaptopDealerApplication {
                         break;
                 }
                 break;
+
             case 3:
                 switch (userProcessorSelect) {
+
                     case 1:
                         beanId = "lenovoWithi3";
                         break;
@@ -65,6 +69,7 @@ public class LaptopDealerApplication {
                         break;
                 }
                 break;
+
             default:
                 System.out.println("Invalid selection. Please try again.");
         }
