@@ -28,48 +28,30 @@ public class LaptopDealerApplication {
         switch (userBrandSelect) {
 
             case 1:
-                switch (userProcessorSelect) {
-
-                    case 1:
-                        beanId = "dellWithi3";
-                        break;
-                    case 2:
-                        beanId="dellWithi5";
-                        break;
-                    case 3:
-                        beanId="dellWithi7";
-                        break;
-                }
+                beanId = switch (userProcessorSelect) {
+                    case 1 -> "dellWithi3";
+                    case 2 -> "dellWithi5";
+                    case 3 -> "dellWithi7";
+                    default -> beanId;
+                };
                 break;
 
             case 2:
-                switch (userProcessorSelect) {
-
-                    case 1:
-                        beanId = "macbookWithi3";
-                        break;
-                    case 2:
-                        beanId="macbookWithi5";
-                        break;
-                    case 3:
-                        beanId="macbookWithi7";
-                        break;
-                }
+                beanId = switch (userProcessorSelect) {
+                    case 1 -> "macbookWithi3";
+                    case 2 -> "macbookWithi5";
+                    case 3 -> "macbookWithi7";
+                    default -> beanId;
+                };
                 break;
 
             case 3:
-                switch (userProcessorSelect) {
-
-                    case 1:
-                        beanId = "lenovoWithi3";
-                        break;
-                    case 2:
-                        beanId="lenovoWithi5";
-                        break;
-                    case 3:
-                        beanId="lenovoWithi7";
-                        break;
-                }
+                beanId = switch (userProcessorSelect) {
+                    case 1 -> "lenovoWithi3";
+                    case 2 -> "lenovoWithi5";
+                    case 3 -> "lenovoWithi7";
+                    default -> beanId;
+                };
                 break;
 
             default:
