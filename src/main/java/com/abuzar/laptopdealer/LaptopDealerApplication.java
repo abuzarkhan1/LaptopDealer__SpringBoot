@@ -29,6 +29,7 @@ public class LaptopDealerApplication {
 
             case 1:
                 switch (userProcessorSelect) {
+
                     case 1:
                         beanId = "dellWithi3";
                         break;
@@ -43,6 +44,7 @@ public class LaptopDealerApplication {
 
             case 2:
                 switch (userProcessorSelect) {
+
                     case 1:
                         beanId = "macbookWithi3";
                         break;
